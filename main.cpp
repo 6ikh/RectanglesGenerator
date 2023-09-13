@@ -2,16 +2,17 @@
 #include <fstream>
 #include <vector>
 #include <cmath>
-#include <ctime>
 #include <cstdlib>
-
 using namespace std;
 
-// Structure to represent a rectangle
+// Structure (struct) is being defined to represent a rectangle
 struct Rectangle {
-    double x, y; // Coordinates of the center
+//declaring two double variables, x & y, that will be used to represent the coordinates of the center of the rectangle
+    double x, y; 
+//declaring two double variables, width & height, that will be used for the width and height of the actual rectangle
     double width, height;
-    double angle; // Orientation angle in degrees
+//declaring variable, angle, used to represent the orientation angle of the rectangle in degrees 
+    double angle; 
 };
 
 // Function to generate random double in a specified range
@@ -40,8 +41,6 @@ int main() {
     int n;
     cout << "Enter the number of rectangles (n): ";
     cin >> n;
-
-    srand(static_cast<unsigned>(time(nullptr)));
 
     vector<Rectangle> rectangles;
 
