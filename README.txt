@@ -1,1 +1,5 @@
-to be continued
+The program will start and you will be prompted to enter the number of rectangles (n). Type in the desired number of rectangles and press Enter. 
+The program will generate random rectangles and check for overlaps. If any rectangles overlap, the program will regenerate them to ensure there is no overlap. 
+After generating valid rectangles, the program will write the rectangle data to a text file named "rectangles.txt" in the same directory as the program.
+Then it will display the message: "Rectangle data written to 'rectangles.txt'" if the file is successfully written. After that it will calculate and display the total occlusion angle over all rectangles in degrees.
+Using the data written to the 'rectangles.txt', the user can run the grapher.py to look at all the points of the rectangles on a graph. 
