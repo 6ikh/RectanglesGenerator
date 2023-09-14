@@ -1,3 +1,0 @@
-Center: (28.3099, 29.844), Width: 4.36075, Height: 2.57753, Angle: 328.193 degrees
-Center: (26.823, -22.2225), Width: 1.79021, Height: 2.34089, Angle: 199.429 degrees
-Center: (-13.5216, 1.34009), Width: 2.90959, Height: 3.51548, Angle: 342.803 degrees
